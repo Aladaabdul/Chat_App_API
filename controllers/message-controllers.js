@@ -1,4 +1,4 @@
-const Message = require("../model/Message");
+const Message = require("../model/Message")
 
 async function sendMessage(req, res) {
     const { sender, receiver, content } = req.body;
